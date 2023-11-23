@@ -1,0 +1,34 @@
+[
+  {
+    "id": "Aries:5:ParticipantFullName:0.0.1:indy",
+    "name": "Participant full name and discipline",
+    "description": "Verify the full name and discipline of a participant",
+    "version": "0.0.1",
+    "payload": {
+      "type": "anoncreds",
+      "data": [
+        {
+          "schema": "TfGSZ1rWA4kk8npaaSg7Ca:2:Participant:1.2",
+          "requestedAttributes": [
+            {
+              "name": "full_name",
+              "restrictions": [
+                {
+                  "cred_def_id": "TfGSZ1rWA4kk8npaaSg7Ca:3:CL:54551:Participant"
+                }
+              ]
+            },
+            {
+              "name": "discipline",
+              "restrictions": [
+                {
+                  "cred_def_id": "TfGSZ1rWA4kk8npaaSg7Ca:3:CL:54551:Participant"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
