@@ -1,28 +1,28 @@
 [
   {
-    "id": "Aries:5:ParticipantFullName:0.0.1:indy",
-    "name": "Participant full name and discipline",
-    "description": "Verify the full name and discipline of a participant",
+    "id": "Aries:5:BlocksterEmploymentVCFullName:0.0.1:indy",
+    "name": "Blockster Labs employee name and id",
+    "description": "Verify the name and employee id of a Blockster Labs employee",
     "version": "0.0.1",
     "payload": {
       "type": "anoncreds",
       "data": [
         {
-          "schema": "TfGSZ1rWA4kk8npaaSg7Ca:2:Participant:1.2",
+          "schema": "HunPZjBW3msPS2FUVF41mC:2:Employment:1.0",
           "requestedAttributes": [
             {
-              "name": "full_name",
+              "name": "Name",
               "restrictions": [
                 {
-                  "cred_def_id": "TfGSZ1rWA4kk8npaaSg7Ca:3:CL:54551:Participant"
+                  "cred_def_id": "HunPZjBW3msPS2FUVF41mC:3:CL:666:Blockster Employment VC"
                 }
               ]
             },
             {
-              "name": "discipline",
+              "name": "Employee ID",
               "restrictions": [
                 {
-                  "cred_def_id": "TfGSZ1rWA4kk8npaaSg7Ca:3:CL:54551:Participant"
+                  "cred_def_id": "HunPZjBW3msPS2FUVF41mC:3:CL:666:Blockster Employment VC"
                 }
               ]
             }
