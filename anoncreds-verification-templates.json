@@ -1,5 +1,83 @@
 [
   {
+    "id": "Aries:5:WMCParticipant:0.0.1:indy",
+    "name": "WMC Participant",
+    "description": "Verify that you have participated in WMC 2023 held in India",
+    "version": "0.0.1",
+    "payload": {
+      "type": "anoncreds",
+      "data": [
+        {
+          "schema": "UwdddfgpXQwEgMw66zR3FH:2:Participant:1.0",
+          "requestedAttributes": [
+            {
+              "names": ["full_name", "country", "category", "issued_date"],
+              "restrictions": [
+                {
+                  "cred_def_id": "UwdddfgpXQwEgMw66zR3FH:3:CL:672:WMC Participant"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Aries:5:WMCWinner:0.0.1:indy",
+    "name": "WMC Winner",
+    "description": "Verify that your were winner in any of the discipline in WMC 2023 held in India",
+    "version": "0.0.1",
+    "payload": {
+      "type": "anoncreds",
+      "data": [
+        {
+          "schema": "UwdddfgpXQwEgMw66zR3FH:2:Winner:1.0",
+          "requestedAttributes": [
+            {
+              "names": [
+                "full_name",
+                "category",
+                "country",
+                "discipline",
+                "issued_date"
+              ],
+              "restrictions": [
+                {
+                  "cred_def_id": "UwdddfgpXQwEgMw66zR3FH:3:CL:673:WMC Winner"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Aries:5:WMCArbiter:0.0.1:indy",
+    "name": "WMC Arbiter",
+    "description": "Verify that you were an arbiter in WMC 2023 held in India",
+    "version": "0.0.1",
+    "payload": {
+      "type": "anoncreds",
+      "data": [
+        {
+          "schema": "UwdddfgpXQwEgMw66zR3FH:2:Arbiter:1.0",
+          "requestedAttributes": [
+            {
+              "names": ["full_name", "country", "issued_date"],
+              "restrictions": [
+                {
+                  "cred_def_id": "UwdddfgpXQwEgMw66zR3FH:3:CL:669:WMC Arbiter"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "Aries:5:BlocksterEmploymentVCFullName:0.0.1:indy",
     "name": "Blockster Labs employee name and id",
     "description": "Verify the name and employee id of a Blockster Labs employee",
