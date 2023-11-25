@@ -54,6 +54,36 @@
     }
   },
   {
+    "id": "Aries:5:WMCWorldRecord:0.0.1:indy",
+    "name": "WMC World Record",
+    "description": "Verify that you hold any world record in WMC 2023 held in India",
+    "version": "0.0.1",
+    "payload": {
+      "type": "anoncreds",
+      "data": [
+        {
+          "schema": "UwdddfgpXQwEgMw66zR3FH:2:WorldRecord:1.0",
+          "requestedAttributes": [
+            {
+              "names": [
+                "full_name",
+                "discipline",
+                "issued_date",
+                "record_details",
+                "world_record"
+              ],
+              "restrictions": [
+                {
+                  "cred_def_id": "UwdddfgpXQwEgMw66zR3FH:3:CL:674:WMC World Record"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "Aries:5:WMCArbiter:0.0.1:indy",
     "name": "WMC Arbiter",
     "description": "Verify that you were an arbiter in WMC 2023 held in India",
