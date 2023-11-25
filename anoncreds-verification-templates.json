@@ -30,5 +30,37 @@
         }
       ]
     }
+  },
+  {
+    "id": "Aries:5:AyanWorksEmploymentVCFullName:0.0.1:indy",
+    "name": "AyanWorks employee name and id",
+    "description": "Verify the name and employee id of a AyanWorks employee",
+    "version": "0.0.1",
+    "payload": {
+      "type": "anoncreds",
+      "data": [
+        {
+          "schema": "HunPZjBW3msPS2FUVF41mC:2:Employment:1.0",
+          "requestedAttributes": [
+            {
+              "name": "Name",
+              "restrictions": [
+                {
+                  "cred_def_id": "PKDMuYSzJE22Jkh4B1EMiX:3:CL:666:AyanWorks Employment"
+                }
+              ]
+            },
+            {
+              "name": "Employee ID",
+              "restrictions": [
+                {
+                  "cred_def_id": "PKDMuYSzJE22Jkh4B1EMiX:3:CL:666:AyanWorks Employment"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
