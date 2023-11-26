@@ -11,7 +11,7 @@
           "schema": "UwdddfgpXQwEgMw66zR3FH:2:Participant:1.0",
           "requestedAttributes": [
             {
-              "names": ["full_name", "country", "category", "issued_date"],
+              "names": ["full_name", "country", "category"],
               "restrictions": [
                 {
                   "cred_def_id": "UwdddfgpXQwEgMw66zR3FH:3:CL:672:WMC Participant"
@@ -35,13 +35,7 @@
           "schema": "UwdddfgpXQwEgMw66zR3FH:2:Winner:1.0",
           "requestedAttributes": [
             {
-              "names": [
-                "full_name",
-                "category",
-                "country",
-                "discipline",
-                "issued_date"
-              ],
+              "names": ["full_name", "category", "country", "discipline"],
               "restrictions": [
                 {
                   "cred_def_id": "UwdddfgpXQwEgMw66zR3FH:3:CL:673:WMC Winner"
@@ -68,7 +62,6 @@
               "names": [
                 "full_name",
                 "discipline",
-                "issued_date",
                 "record_details",
                 "world_record"
               ],
@@ -95,7 +88,7 @@
           "schema": "UwdddfgpXQwEgMw66zR3FH:2:Arbiter:1.0",
           "requestedAttributes": [
             {
-              "names": ["full_name", "country", "issued_date"],
+              "names": ["full_name", "country"],
               "restrictions": [
                 {
                   "cred_def_id": "UwdddfgpXQwEgMw66zR3FH:3:CL:669:WMC Arbiter"
