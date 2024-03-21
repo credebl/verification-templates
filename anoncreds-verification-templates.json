@@ -264,5 +264,32 @@
                 }
             ]
         }
+    },
+    {
+        "id": "Aries:5:DrivingLicenseVCFullNameImage:0.0.1:indy",
+        "name": "Driving License name and image",
+        "description": "Verify the name and image of a Driving License",
+        "version": "0.0.1",
+        "payload": {
+            "type": "anoncreds",
+            "data": [
+                {
+                    "schema": "8nTKnAnB7cRPg9VNGakEsZ:3:CL:495599:DrivingLicense",
+                    "requestedAttributes": [
+                        {
+                            "names": [
+                                "full name",
+                                "image"
+                            ],
+                            "restrictions": [
+                                {
+                                    "cred_def_id": "8nTKnAnB7cRPg9VNGakEsZ:3:CL:495599:DrivingLicense"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
     }
 ]
