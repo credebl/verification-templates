@@ -291,7 +291,7 @@
         }
     },
     {
-        "id": "Aries:5:NemarVisa:0.0.1:indy",
+        "id": "Aries:5:NationalCard:0.0.1:indy",
         "name": "Verify Nemar Citizen",
         "description": "Verify that you have valid citizen of nemar",
         "version": "0.0.1",
