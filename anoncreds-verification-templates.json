@@ -289,5 +289,49 @@
                 }
             ]
         }
+    },
+    {
+        "id": "Aries:5:id:0.0.1:indy",
+        "name": "Verify id",
+        "description": "Verify that you have valid id",
+        "version": "0.0.1",
+        "payload": {
+            "type": "anoncreds",
+            "data": [
+                {
+                    "schema": "ExRuyTywoH5VGtJmHvMLpu:2:Address:1.0",
+                    "requestedAttributes": [
+                        {
+                            "names": [
+                                "Full Name",
+                                "Gender",
+                                "Date of Birth",
+                                "ID Type",
+                                "ID Number"
+                            ],
+                            "restrictions": [
+                                {
+                                    "schema_id": "8nTKnAnB7cRPg9VNGakEsZ:2:Foundational ID:0.0.7"
+                                }
+                            ]
+                        },
+                        {
+                            "names": [
+                                "House Number",
+                                "Thram Number",
+                                "Village",
+                                "Gewog",
+                                "Dzongkhag"
+                            ],
+                            "restrictions": [
+                                {
+                                    "schema_id": "8nTKnAnB7cRPg9VNGakEsZ:2:Permanent Address:0.0.3"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
     }
 ]
