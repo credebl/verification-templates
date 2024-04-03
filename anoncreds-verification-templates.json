@@ -291,9 +291,9 @@
         }
     },
     {
-        "id": "Aries:5:id:0.0.1:indy",
-        "name": "Verify id",
-        "description": "Verify that you have valid id",
+        "id": "Aries:5:NemarVisa:0.0.1:indy",
+        "name": "Verify Nemar Citizen",
+        "description": "Verify that you have valid citizen of nemar",
         "version": "0.0.1",
         "payload": {
             "type": "anoncreds",
@@ -303,29 +303,24 @@
                     "requestedAttributes": [
                         {
                             "names": [
-                                "Full Name",
-                                "Gender",
-                                "Date of Birth",
-                                "ID Type",
-                                "ID Number"
+                                "Country",
+                                "City"
                             ],
                             "restrictions": [
                                 {
-                                    "schema_id": "8nTKnAnB7cRPg9VNGakEsZ:2:Foundational ID:0.0.7"
+                                    "cred_def_id": "ExRuyTywoH5VGtJmHvMLpu:3:CL:546370:Address"
                                 }
                             ]
                         },
                         {
                             "names": [
-                                "House Number",
-                                "Thram Number",
-                                "Village",
-                                "Gewog",
-                                "Dzongkhag"
+                                "Date of Birth",
+                                "Full Name",
+                                "Gender"
                             ],
                             "restrictions": [
                                 {
-                                    "schema_id": "8nTKnAnB7cRPg9VNGakEsZ:2:Permanent Address:0.0.3"
+                                    "cred_def_id": "ExRuyTywoH5VGtJmHvMLpu:3:CL:546367:National Card"
                                 }
                             ]
                         }
