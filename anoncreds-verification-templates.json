@@ -43,7 +43,8 @@
               "names": ["full_name", "country", "organization"],
               "restrictions": [
                 {
-                  "cred_def_id": "did:indy:bcovrin:test:GWsYMNu1gqw6KQxMyJbFuh/anoncreds/v0/CLAIM_DEF/284645/Speaker"
+                  "schema_id": "GWsYMNu1gqw6KQxMyJbFuh:2:Speaker:1.0",
+                  "cred_def_id": "GWsYMNu1gqw6KQxMyJbFuh:3:CL:284645:Speaker"
                 }
               ]
             }
