@@ -40,7 +40,7 @@
           "schema": "GWsYMNu1gqw6KQxMyJbFuh:2:Speaker:1.0",
           "requestedAttributes": [
             {
-              "name": ["full_name"],
+              "name": "full_name",
               "restrictions": [
                 {
                   "schema_id": "GWsYMNu1gqw6KQxMyJbFuh:2:Speaker:1.0",
@@ -49,7 +49,7 @@
               ]
             },
             {
-              "name": ["country"],
+              "name": "country",
               "restrictions": [
                 {
                   "schema_id": "GWsYMNu1gqw6KQxMyJbFuh:2:Speaker:1.0",
@@ -58,7 +58,7 @@
               ]
             },
             {
-              "name": ["organization"],
+              "name": "organization",
               "restrictions": [
                 {
                   "schema_id": "GWsYMNu1gqw6KQxMyJbFuh:2:Speaker:1.0",
