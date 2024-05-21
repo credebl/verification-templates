@@ -34,7 +34,7 @@
     "description": "Verify that you are the speaker for ID4Africa 2024 in Cape Town, South Africa",
     "version": "0.0.1",
     "payload": {
-      "type": "anoncreds",
+      "type": "indy",
       "data": [
         {
           "schema": "GWsYMNu1gqw6KQxMyJbFuh:2:Speaker:1.0",
