@@ -5,7 +5,7 @@
     "description": "Verify that you have valid visa of Republic of Nemar",
     "version": "0.0.1",
     "payload": {
-      "type": "anoncreds",
+      "type": "indy",
       "data": [
         {
           "schema": "4C1UMYojn9kApiybgMbMYG:2:Nemar Visa:1.0",
@@ -58,7 +58,7 @@
     "description": "Verify that you are the Delegate for ID4Africa 2024 in Cape Town, South Africa",
     "version": "0.0.1",
     "payload": {
-      "type": "anoncreds",
+      "type": "indy",
       "data": [
         {
           "schema": "GWsYMNu1gqw6KQxMyJbFuh:2:Delegate:1.0",
@@ -82,7 +82,7 @@
     "description": "Verify that you have participated in WMC 2023 held in India",
     "version": "0.0.1",
     "payload": {
-      "type": "anoncreds",
+      "type": "indy",
       "data": [
         {
           "schema": "UwdddfgpXQwEgMw66zR3FH:2:Participant:1.0",
@@ -106,7 +106,7 @@
     "description": "Verify that your were winner in any of the discipline in WMC 2023 held in India",
     "version": "0.0.1",
     "payload": {
-      "type": "anoncreds",
+      "type": "indy",
       "data": [
         {
           "schema": "UwdddfgpXQwEgMw66zR3FH:2:Winner:1.0",
@@ -136,7 +136,7 @@
     "description": "Verify that you hold any world record in WMC 2023 held in India",
     "version": "0.0.1",
     "payload": {
-      "type": "anoncreds",
+      "type": "indy",
       "data": [
         {
           "schema": "UwdddfgpXQwEgMw66zR3FH:2:WorldRecord:1.0",
@@ -166,7 +166,7 @@
     "description": "Verify that you were an arbiter in WMC 2023 held in India",
     "version": "0.0.1",
     "payload": {
-      "type": "anoncreds",
+      "type": "indy",
       "data": [
         {
           "schema": "UwdddfgpXQwEgMw66zR3FH:2:Arbiter:1.0",
@@ -190,7 +190,7 @@
     "description": "Verify the name and employee id of a Blockster Labs employee",
     "version": "0.0.1",
     "payload": {
-      "type": "anoncreds",
+      "type": "indy",
       "data": [
         {
           "schema": "HunPZjBW3msPS2FUVF41mC:2:Employment:1.0",
@@ -222,7 +222,7 @@
     "description": "Verify the name and employee id of an AyanWorks employee",
     "version": "0.0.1",
     "payload": {
-      "type": "anoncreds",
+      "type": "indy",
       "data": [
         {
           "schema": "HunPZjBW3msPS2FUVF41mC:2:Employment:1.0",
@@ -249,7 +249,7 @@
     "description": "Verify the name and image of a Driving License",
     "version": "0.0.1",
     "payload": {
-      "type": "anoncreds",
+      "type": "indy",
       "data": [
         {
           "schema": "8nTKnAnB7cRPg9VNGakEsZ:3:CL:495599:DrivingLicense",
@@ -273,7 +273,7 @@
     "description": "Verify that you have valid citizen of nemar",
     "version": "0.0.1",
     "payload": {
-      "type": "anoncreds",
+      "type": "indy",
       "data": [
         {
           "schema": "ExRuyTywoH5VGtJmHvMLpu:2:Address:1.0",
